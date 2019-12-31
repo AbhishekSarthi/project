@@ -1,0 +1,157 @@
+body{
+  margin:0;
+  font-family:sans-serif;
+  background-color:#242424;
+  background-image:url("https://img.yts.lt/assets/images/movies/men_in_black_international_2019/background.jpg");
+  background-size:100%;
+  background-position:top;
+  background-repeat:no-repeat;  
+
+}
+.top-bar{
+  position:fixed;
+  top:0;
+  background-color: #1f1f1f;
+  width:100%;
+  height:55px;
+}
+
+.top-bar ul {
+  margin-left:10px;
+  float:left;
+  list-style:none;
+}
+
+.top-bar ul li{
+  float:left;
+ 
+  padding:5px 7px 0px;
+  color:#949494;
+  font-family:sans-serif;
+  font-size:13px;
+}
+
+a{
+  text-decoration:none;
+}
+a:link{
+  color:#949494;
+}
+a:hover{
+  color:white;
+  font-weight:bold;
+}
+.top-bar img{
+  float:left;
+  width:130px;
+  height:55px;
+  margin-left:60px;
+  
+}
+input{
+  margin-left:35%;
+  margin-top:15px;
+  padding:4px;
+  float:left;
+  background-color:black;
+  color:white;
+  background-image:url("data:image/png;base64,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");
+  background-size:19px 19px;
+  background-repeat:no-repeat;
+  font-size:13px;
+  border-radius:20px;
+}
+
+.content{
+position:absolute;
+  background-color:blak;
+  top:100px;
+  left:45px;
+  width:90%;
+  height:40%;
+  z-index:-1;
+}
+
+.content h1{
+  color:white;
+  font-family:sans-serif;
+  text-align:center;
+  font-size:2.4em;
+}
+
+.content p{
+  position:relative;
+  left:20%;
+  width:60%;
+  color:#b5b5b5;
+  font-family:sans-serif;
+  text-align:center;  
+  font-weight:bold;
+
+}
+.sub-heading{
+position:absolute;
+  background-color:blu;
+  top:305px;
+  left:45px;
+  width:90%;
+  height:10%;
+  z-index:-1;
+}
+.sub-heading h4{
+  color:white;
+  text-align:center;
+}
+.movies{
+ position:absolute;
+  top:350px;
+  left:45px;
+  width:90%;
+  height:400%;
+  z-index:-1;
+  border-top:1px solid #b5b5b5;
+}
+.movies1 ul {
+  list-style:none;
+}
+.movies1 ul img{
+  margin:20px 30px 20px;
+  padding:0px;
+  float:left;
+  width:220px;
+  height:310px;
+  border:4px solid white
+}
+
+.nav{
+ 
+  position:fixed;
+  top:100px;
+  width:50px;
+  height:300px;
+  background-color:blue;
+}
+
+.nav ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.nav img{
+  float:left;
+  width:50px;
+  height:50px;
+  margin:0;
+  
+
+}
+
+#two a:link{
+  color:white;
+}
+#two a:hover{
+  color:#949494;
+  font-weight:bold;
+}
+
